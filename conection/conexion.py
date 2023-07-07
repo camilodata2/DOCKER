@@ -15,4 +15,4 @@ def conect_data_base(host,port,nombre_db,contraseña,usuario):
         print('hubo una falla en la conecion a la base de datos',error)
 
 # Ejemplo de conexion
-conexion = conect_data_base('localhost', '5432', 'postgres', 'postgres1', 'camilo43')
+conexion = conect_data_base('localhost', '5432', 'postgres1', 'camilo43', 'postgres')
